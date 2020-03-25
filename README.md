@@ -88,6 +88,7 @@ $ python3 inference.py url
 ## Cautions & Suggestions
 
 - Check the file locations properly, change it if required.
+- If you face any problems with script files use notebooks [transfrom_spam.ipynb](https://github.com/abhilashreddys/Fake-News-Article/blob/master/transfrom_spam.ipynb) for training and [fake_article.ipynb](https://github.com/abhilashreddys/Fake-News-Article/blob/master/fake_article.ipynb) for inference.
 - Trained only for `5 Epochs`, trying to use a better model with more data.
 
 ## References
