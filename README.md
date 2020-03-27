@@ -126,4 +126,4 @@ Understanding](https://arxiv.org/abs/1810.04805)
 - [Fake News Detection by Learning Convolution Filters through Contextualized Attention](https://github.com/ekagra-ranjan/fake-news-detection-LIAR-pytorch)
 - [Based on Click-Baits](https://github.com/addy369/Click-Bait-Model)
 - [Fake News Web](https://github.com/addy369/Fake_News_Web)
-- [Fake News Pipeline Project](https://github.com/walesdata/newsbot), Explained artilcle [here](https://towardsdatascience.com/full-pipeline-project-python-ai-for-detecting-fake-news-with-nlp-bbb1eec4936d).
+- [Fake News Pipeline Project](https://github.com/walesdata/newsbot), Explained article [here](https://towardsdatascience.com/full-pipeline-project-python-ai-for-detecting-fake-news-with-nlp-bbb1eec4936d).
