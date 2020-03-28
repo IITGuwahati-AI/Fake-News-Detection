@@ -1,4 +1,5 @@
 # Political Fake News
+![GitHub Logo](/images/l (2).jpg)
 ## Introduction
 Fake News is a spread of disinformation and hoaxes through any
 news platform. The imminent threat of such a widespread
