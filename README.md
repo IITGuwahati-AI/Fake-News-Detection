@@ -25,11 +25,39 @@ by a sentence.
 ## Code
 
 This code was written and trained on Google colab.The notebook contains code for training and evaluation using pretrained bert model using ktrain.
+
+### Dependencies
 * tensorflow 2.0+ is required
 * need to install ktrain 
 
    `pip install ktrain` 
+* pandas 0.25+
+* sklearn 0.21+
+
+### Training
+Paste the dataset downloaded in the folder
+`data/`
+Additionally you can import it from drive if you are using colab. 
+
+You can choose any of the pretrained models in ktrain package by changing the model name in the cell
+
+`MODEL_NAME = 'bert-large-uncased'`
+
+I have used bert-large-uncased for which I got the maximum evaluation and test set accuracy and trained on tesla P100 GPU on Google Colab
+
+You can check other hugging face transfomers BERT, DistilBERT, NBSVM, fastText, and other models.
+
+### Testing 
+ test = statement + '<>' + description  
+ 
+ `predictor.predict(test)` 
+ 
+ will give the result 
+ 
+ You can check the notebook cells for the above
   
+
+
 
 ## Description 
 
