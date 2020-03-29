@@ -1,5 +1,4 @@
-# Fake_News_Web
-![GitHub Logo](images/download.jpg)
+![GitHub Logo](/images/download.jpg)
 
 # Click bait in the broswer preview
 ![GitHub Logo](images/Screenshot from 2020-03-29 20-38-07.png)
