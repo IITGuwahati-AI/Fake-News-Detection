@@ -6,8 +6,9 @@
 
 This is a project for detecting click bait IITG.ai
 ## Introduction
+### What is clickbait?
 
-clickbat is defined as content whose main purpose is to attract attention and encourage visitors to click on a link to a particular web page.
+Clickbat is defined as content whose main purpose is to attract attention and encourage visitors to click on a link to a particular web page.
 We wanted to enable click bait analysis in the browser.. Refer to the competition site to see description about challenge [here](https://www.clickbait-challenge.org/)
 
 ## Data
@@ -16,42 +17,18 @@ The dataset can be found [here](https://drive.google.com/drive/folders/1YESJbDd6
 
 ## Code
 
-This code was written and trained on Google colab.
+This code was written and trained on Google colab. The google colab notebook can be found under the python folder
 
-### Dependencies
-* tensorflow 2.0+ is required
-* need to install ktrain 
+### Testing
 
-   `pip install ktrain` 
-* pandas 0.25+
-* sklearn 0.21+
+Refer to medium article [here](https://towardsdatascience.com/tensorflow-js-using-javascript-web-worker-to-run-ml-predict-function-c280e966bcab)
 
-### Training
-Paste the dataset downloaded in the folder
-`data/`
-Additionally you can import it from drive if you are using colab. 
+JavaScript application is based on Oracle JET toolkit (collection of open source libraries — knockout.js, require.js, etc.). To run the sample app on your computer, execute these commands:
+App root folder is 'current_directory/js/....'
 
+```shell
+npm install -g @oracle/ojet-cli
+From app root folder run: ojet restore
+From app root folder run: ojet serve
+```
 
-### Testing 
- test = statement + '<>' + description  
- 
- `predictor.predict(test)` 
- 
- will give the result 
- 
- You can check the notebook cells for the above
-  
-
-
-
-## Description 
-
-
-## Conclusion
-
-Our model has huge future prospects and can be
-easily scaled. The Political Fake News is currently
-trained on the US dataset where fake news was the
-main topic of the US election 2016 and the problem is
-expected to grow in India as well. The future work
-would extend this to an Indian dataset .
