@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JUnit reporter for QUnit (Old API)</title>
+	<link rel="stylesheet" href="../node_modules/qunitjs/qunit/qunit.css">
+	<script src="../node_modules/qunitjs/qunit/qunit.js"></script>
+	<script>
+		QUnit.config.reorder = false;
+	</script>
+	<script src="../qunit-reporter-junit.js"></script>
+	<script>
+		// Old API
+		QUnit.jUnitReport = function(data) {
+			var console = window.console;
+			if (console) {
+				console.log(data.xml);
+			}
+		};
+	</script>
+	<script src="qunit-reporter-junit.test.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+define([],function(){"use strict";var a={createPersistenceStore:function(a,b){}};return a});
