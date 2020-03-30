@@ -19,6 +19,13 @@ The dataset can be found [here](https://drive.google.com/drive/folders/1YESJbDd6
 
 This code was written and trained on Google colab. The google colab notebook can be found under the python folder
 
+## Example input data
+Data is concatenated as follows 
+"[ Headline ]"+"text"
+#### example is as follows
+['UK’s response to modern slavery leaving victims destitute while abusers go free'] - Headline
+Inexcusable” failures in the UK’s system for dealing with modern slavery are\xa0leaving victims reduced to destitution while their abusers go free because they are not adequately supported to testify against them, an alarming report has warned. -Body
+
 ### Testing
 
 Refer to medium article [here](https://towardsdatascience.com/tensorflow-js-using-javascript-web-worker-to-run-ml-predict-function-c280e966bcab)
