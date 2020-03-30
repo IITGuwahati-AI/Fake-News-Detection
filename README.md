@@ -2,7 +2,7 @@
 
 # Click bait in the broswer preview
 
-![GitHub Logo](/images/preview.png)
+![GitHub Logo](/images/test_image.png)
 
 This is a project for detecting click bait IITG.ai
 ## Introduction
