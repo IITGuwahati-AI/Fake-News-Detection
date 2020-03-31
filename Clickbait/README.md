@@ -1,8 +1,8 @@
-![GitHub Logo](/images/download.png)
+![GitHub Logo](../Clickbait/images/download.png)
 
 # Click bait in the broswer preview
 
-![GitHub Logo](/images/test_image.png)
+![GitHub Logo](../Clickbait/images/test_image.png)
 
 This is a project for detecting click bait IITG.ai
 ## Introduction
