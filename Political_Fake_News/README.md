@@ -1,10 +1,10 @@
 # Political Fake News
-![GitHub Logo](/images/l1.jpg)
+![GitHub Logo](../Political_Fake_News/images/l1.jpg)
 
 This is a project of detecting political fake news by deep learning by IITG.ai
 ## Introduction
 
-![GitHub Logo](/images/fakenewsweb.jpg)
+![GitHub Logo](../Political_Fake_News/images/fakenewsweb.jpg)
 
 Fake News is a spread of disinformation and hoaxes through any
 news platform. The imminent threat of such a widespread
@@ -61,7 +61,7 @@ You can check other hugging face transfomers BERT, DistilBERT, NBSVM, fastText, 
 
 ## Description 
 
-![GitHub Logo](/images/p.PNG)
+![GitHub Logo](../Political_Fake_News/images/p.PNG)
 
 The statement and justification approach is used.
 The statement is a direct quote from a public
