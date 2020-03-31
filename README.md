@@ -19,7 +19,10 @@ Fake News is a spread of disinformation and hoaxes through any news platform. Th
 ## Techniques
 
 We divide our technique into 3 categories
-- <ins>**Politcal Fake News**</ins>: The LIAR-PLUS Dataset along with additional data scraped from Politifact website was used by taking training size to 20,000 examples. We have concatenated the statement and description by a sentence. Given enough training examples the model learns to make inference on statements given a justification and we got the best accuracy by BERT uncased large model of 70 % on test set.
+- <ins>**Politcal Fake News**</ins>: 
+![Political Fake News](Political_Fake_News/images/p.PNG)
+The LIAR-PLUS Dataset along with additional data scraped from Politifact website was used by taking training size to 20,000 examples. 
+We have concatenated the statement and description by a sentence. Given enough training examples the model learns to make inference on statements given a justification and we got the best accuracy by BERT uncased large model of 70 % on test set.
 
 - <ins>**Clickbait**</ins>: We have used BILSTM attention model and fine-tuned it using a dataset of train size 19,000 examples.
 
