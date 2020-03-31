@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<title>Fake_NEWS</title>
+
+  <!-- Tab links -->
+
+
+<div id="Click">
+  <h3>Clickbait</h3>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
+  <link rel="icon" href="css/images/katana.ico" type="image/x-icon" />
+
+  <!-- This is the main css file for the default Alta theme -->
+  <!-- injector:theme -->
+  <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css" />
+  <!-- endinjector -->
+  <!-- This contains icon fonts used by the starter template -->
+  <link rel="stylesheet" href="css/demo-alta-site-min.css" type="text/css" />
+
+  <!-- This is where you would add any app specific styling -->
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+</head>
+<body class="oj-web-applayout-body">
+  <div id="global" class="oj-web-applayout-page">
+    <!--
+         ** Oracle JET V7.1.0 web application header pattern.
+         ** Please see the demos under Cookbook/Patterns/App Shell: Web
+         ** and the CSS documentation under Support/API Docs/Non-Component Styling
+         ** on the JET website for more information on how to use this pattern.
+      -->
+    <header role="banner" class="oj-web-applayout-header">
+      <div class="oj-web-applayout-max-width oj-flex-bar oj-sm-align-items-center">
+        <div class="oj-flex-bar-middle oj-sm-align-items-baseline">
+          <img src="css/images/IITG_logo.jpg" alt="Logo" width="150px" height="150px"/>
+        </div>
+      </div>
+    </header>
+    <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content">
+      <h1>Clickbait Analysis</h1>
+      <h3>Predict Probability for Clickbait</h3>
+      <br/>
+      <h2 class="oj-header-border">DESCRIPTION</h2>
+      This is Clickbait
+      <br/><br/>
+  
+      <h2 class="oj-header-border">Target_Headline</h2>
+      <textarea rows="5" cols="120" data-bind='value: reviewText2, valueUpdate: "input"'></textarea>
+      <br/><br/>
+      <h2 class="oj-header-border">Target_Summary</h2>
+      <textarea rows="5" cols="120" data-bind='value: reviewText3, valueUpdate: "input"'></textarea>
+      <br/><br/>
+
+      <h2 class="oj-header-border">PREDICTED Clickbait_Probability: POSITIVE (0), NEGATIVE (1)</h2>
+      <span style="font-size: 15px;" data-bind="text: 'negativity = '"></span>
+      <span style="font-size: 15px;" data-bind="text: negativityScore1"></span>
+      <br/><br/>
+      <span style="font-size: 50px;" data-bind="text: sentiment1"></span>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/libs/require/require.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</div>
+
+
+
+
+<script>
+function opentab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</html>
