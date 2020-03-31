@@ -26,7 +26,7 @@ We have concatenated the statement and description by a sentence. Given enough t
 
 - <ins>**Clickbait**</ins>: We have used BILSTM attention model and fine-tuned it using a dataset of train size 19,000 examples.
 
-![Clickbait](./assets/clickbait.png)
+<img src="assets/clickbait.png" width="600" height="500">
 
 - <ins>**Fake News Article**</ins>: Custom made dataset collected form politifactMediabias chart. To find out if this hypothesis is correct, we made a labelled data set that will give us examples of fake news and examples of real news as provided by professional fact checkers. We scraped data from the urls and pre processing is done using NLTK, we fine tuned BERT to predict the news article as real or fake.
 
