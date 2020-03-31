@@ -47,6 +47,12 @@ I have used bert-large-uncased for which I got the maximum evaluation and test s
 
 You can check other hugging face transfomers BERT, DistilBERT, NBSVM, fastText, and other models.
 
+### Weights
+
+Download the weights folder [here](https://drive.google.com/open?id=1tbV2Co7QPw9oh3mjx3oD-KiWaI4z6418)
+and add the folder to the current directory.
+
+
 ### Testing 
  test = statement + '<>' + description  
  
