@@ -1,7 +1,7 @@
 # Political Fake News
 ![GitHub Logo](../Political_Fake_News/images/l1.jpg)
 
-This is a project of detecting political fake news by deep learning by IITG.ai
+This is a project for detecting political fake news by deep learning by IITG.ai
 ## Introduction
 
 ![GitHub Logo](../Political_Fake_News/images/fakenewsweb.jpg)
