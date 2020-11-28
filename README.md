@@ -4,7 +4,7 @@ Fake News is a spread of disinformation and hoaxes through any news platform. Th
 
 - The main question is what exactly constitutes Fake News?
 
-## Types of Fake News identified by us:
+## Types of Fake News identified:
 
 ### Political Fake News:
 
